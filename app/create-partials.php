@@ -148,9 +148,9 @@ class CreatePartials
                 '    ->addLayout($' . $prefixed_underscore_partial_name . ')', 
 
                 str_replace(
-                    '// Load content partials', 
+                    '// Load header partials', 
 
-                    '// Load content partials' . "\n" . 
+                    '// Load header partials' . "\n" . 
                     '$' . $prefixed_underscore_partial_name . ' = get_field_partial(\'' . 'partials.' .  $prefixed_partial_name  . '\');', 
 
                 file_get_contents($layout_file_root))
