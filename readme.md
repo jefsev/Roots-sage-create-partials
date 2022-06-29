@@ -17,5 +17,5 @@ php -r 'require "app/create-partials.php"; CreatePartials::create_files_header("
 php -r 'require "app/create-partials.php"; CreatePartials::create_files("name-name");'<br />
 ```
 
-php script is inside app/ create-partials.php
+php script is inside app/ folder
 Other files are as example.
